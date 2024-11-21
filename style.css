@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+}
+.navbar-img{
+    width: 40%;
+    padding: 10px;
+}
+.navbar-img img{
+    width: 25%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    margin: 10px;
+}
+
+.navbar ul li{
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+}
+.navbar ul li:hover{
+    color: white;
+    background-color: #DEB887;
+}
+
+.hero-section{
+    width: 100vw;
+    height: 80vh;
+    background-image:linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)), url("./img/Bg_2.jpg");
+    background-size: contain;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.hero-section-content{
+    width: 33%;
+    padding: 10px;
+    text-align: center;
+}
+.hero-section-content h1{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+.hero-section-content p{
+    color: white;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+.btn{
+    color: white;
+    margin: 10px 0;
+    border: 3px solid #DEB887;
+    background-color: transparent;
+    padding: 15px 56px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #DEB887;
+}
+.mid{
+    padding: 5% 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.mid-img{
+    max-height: 325px;
+    box-shadow: -12px -12px #deb887;
+}
+.mid-img img{
+    height: 320px;
+}
+.mid-content{
+    width: 55%;
+    text-align: center;
+    margin: 30px;
+    font-size: 1rem;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mid-content h3{
+    font-size: 32px;
+    padding: 1rem;
+}
+.mid-content h3 .mid-heading{
+    color: #DEB887;
+}
+.mid-content button{
+    margin-top: 1rem;
+    color: black;
+}
+.quote-section{
+    height: 19rem;
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)), url('./img/Bg_5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.quote-section p{
+    font-size: 40px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 6rem;
+}
+.quote-section p span{
+    padding-left: 20rem;
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+}
